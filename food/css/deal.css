@@ -1,0 +1,92 @@
+
+ body
+{
+    font-family: 'Oswald', sans-serif; 
+    background-image: url("../images/bg-image2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.box{
+    font-family: 'Oswald', sans-serif; 
+
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 10px 18px black;
+   
+}
+.container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;  
+    
+}
+.deals{
+    /* font font-family: ;  */
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.deals-heading
+{
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid red;
+}
+.deals-disc{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:1.5em;
+    padding:1.5em 0;
+
+}
+.deals-item{
+    display: flex;
+
+}
+.deals-item-img
+{
+    width: 500px;
+    height: 400px;
+    flex-shrink: 0;
+    object-fit: contain;
+    margin-right:1.5em;
+
+}
+.deals-item-disc
+{
+    flex-grow: 1;
+}
+.deals-item-heading
+{
+    font-size:25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;    
+}
+.deals-item-name
+{
+    margin-right: 1.5em;
+
+}
+.deals-item-price
+{
+    align:right;
+    justify-content: space-between;
+}
+.deals-item-text
+{
+    font-size: 20px;
+    line-height: 1.6;
+}
+img{
+    border: 10px solid black;
+}
